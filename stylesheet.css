@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #dfe1e5;
+}
+
+.square {
+    background-color: white;
+    
+}
+
+h1, a:link {
+    font-family: 'Poppins', sans-serif;
+    color: #cb99c5;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+.buttons {
+    -webkit-appearance: none; 
+    position: relative;
+	display: inline-block;
+	font-size: 18px;
+	padding: 20px 60px 20px 60px;
+	color: white;
+	margin: 20px 10px 20px 10px;
+	border-radius: 6px;
+	text-align: center;
+	transition: top .01s linear;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    background-color: #cb99c5;
+    text-decoration: none;
+    outline:0;
+	box-shadow: 0 0 0 1px #cb99c5 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+				0 8px 0 0 rgba(189, 142, 183, .7),
+				0 8px 0 1px rgba(0,0,0,.4),
+				0 8px 8px 1px rgba(0,0,0,0.5);
+}
+.buttons:active {
+    -webkit-appearance: none; 
+	box-shadow: 0 0 0 1px #cb99c5 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 0 0 1px rgba(0,0,0,0.4);
+    outline:0;
+}
+
+#resetButton {
+    -webkit-appearance: none; 
+    position: relative;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+	color: white;
+	margin: 20px 10px 20px 10px;
+	border-radius: 6px;
+	text-align: center;
+	transition: top .01s linear;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    background-color: #cb99c5;
+    text-decoration: none;
+    outline:0;
+	box-shadow: 0 0 0 1px #cb99c5 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+				0 8px 0 0 rgba(189, 142, 183, .7),
+				0 8px 0 1px rgba(0,0,0,.4),
+				0 8px 8px 1px rgba(0,0,0,0.5);
+}
+
+#resetButton:active {
+    -webkit-appearance: none; 
+	box-shadow: 0 0 0 1px #cb99c5 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 0 0 1px rgba(0,0,0,0.4);
+    outline:0;
+}
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) {
+    .grid {
+        display: grid;
+        max-width: 300px;
+        max-height: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+  }
+  
